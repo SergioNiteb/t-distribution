@@ -1,0 +1,6 @@
+from scipy import stats
+
+n = 15
+t = -2
+
+2 * (1 - stats.t.cdf(abs(t), n-1))
